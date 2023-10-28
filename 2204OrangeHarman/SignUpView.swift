@@ -11,13 +11,15 @@ import SwiftUI
 struct SignUpView: View {
     var body: some View {
         VStack {
-            HStack {
+            ZStack(alignment: .topLeading) {
                 Image("Logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100)
                     
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            Text("Hello")
         }.navigationBarBackButtonHidden(true)
     }
 }
