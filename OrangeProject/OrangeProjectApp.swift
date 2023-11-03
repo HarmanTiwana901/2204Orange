@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-@main
 struct OrangeProjectApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartupView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
