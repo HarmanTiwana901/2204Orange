@@ -13,6 +13,7 @@
 		5FDB786D2AED77C60026DBA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDB786C2AED77C60026DBA4 /* Preview Assets.xcassets */; };
 		5FDB786F2AED77C60026DBA4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB786E2AED77C60026DBA4 /* Persistence.swift */; };
 		5FDB78722AED77C60026DBA4 /* _204OrangeHarman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB78702AED77C60026DBA4 /* _204OrangeHarman.xcdatamodeld */; };
+		5FDB787B2AED8C550026DBA4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB787A2AED8C550026DBA4 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5FDB786C2AED77C60026DBA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FDB786E2AED77C60026DBA4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5FDB78712AED77C60026DBA4 /* _204OrangeHarman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _204OrangeHarman.xcdatamodel; sourceTree = "<group>"; };
+		5FDB787A2AED8C550026DBA4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				5FDB78652AED77C30026DBA4 /* _204OrangeHarmanApp.swift */,
 				5FDB78672AED77C30026DBA4 /* ContentView.swift */,
+				5FDB787A2AED8C550026DBA4 /* SignUpView.swift */,
 				5FDB78692AED77C60026DBA4 /* Assets.xcassets */,
 				5FDB786E2AED77C60026DBA4 /* Persistence.swift */,
 				5FDB78702AED77C60026DBA4 /* _204OrangeHarman.xcdatamodeld */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDB786F2AED77C60026DBA4 /* Persistence.swift in Sources */,
+				5FDB787B2AED8C550026DBA4 /* SignUpView.swift in Sources */,
 				5FDB78722AED77C60026DBA4 /* _204OrangeHarman.xcdatamodeld in Sources */,
 				5FDB78682AED77C30026DBA4 /* ContentView.swift in Sources */,
 				5FDB78662AED77C30026DBA4 /* _204OrangeHarmanApp.swift in Sources */,
