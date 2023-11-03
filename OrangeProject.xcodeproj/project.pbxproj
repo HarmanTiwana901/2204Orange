@@ -13,6 +13,7 @@
 		5F771C842AF5902200E0E2C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F771C832AF5902200E0E2C6 /* Preview Assets.xcassets */; };
 		5F771C862AF5902200E0E2C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F771C852AF5902200E0E2C6 /* Persistence.swift */; };
 		5F771C892AF5902200E0E2C6 /* OrangeProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F771C872AF5902200E0E2C6 /* OrangeProject.xcdatamodeld */; };
+		5F771C902AF5912B00E0E2C6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F771C8F2AF5912B00E0E2C6 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5F771C832AF5902200E0E2C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F771C852AF5902200E0E2C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5F771C882AF5902200E0E2C6 /* OrangeProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrangeProject.xcdatamodel; sourceTree = "<group>"; };
+		5F771C8F2AF5912B00E0E2C6 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				5F771C7C2AF5901600E0E2C6 /* OrangeProjectApp.swift */,
+				5F771C8F2AF5912B00E0E2C6 /* SignUpView.swift */,
 				5F771C7E2AF5901600E0E2C6 /* ContentView.swift */,
 				5F771C802AF5902200E0E2C6 /* Assets.xcassets */,
 				5F771C852AF5902200E0E2C6 /* Persistence.swift */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F771C862AF5902200E0E2C6 /* Persistence.swift in Sources */,
+				5F771C902AF5912B00E0E2C6 /* SignUpView.swift in Sources */,
 				5F771C892AF5902200E0E2C6 /* OrangeProject.xcdatamodeld in Sources */,
 				5F771C7F2AF5901600E0E2C6 /* ContentView.swift in Sources */,
 				5F771C7D2AF5901600E0E2C6 /* OrangeProjectApp.swift in Sources */,
